@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61525" started-at="2022-05-20T16:06:45Z" finished-at="2022-05-20T16:07:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61525" started-at="2022-05-20T16:06:45Z" finished-at="2022-05-20T16:07:46Z">
+      <class name="com.shopping.testcases.OnlineShopping">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.shopping.testcases.OnlineShopping@1329995]" name="setUp" is-config="true" duration-ms="63354" started-at="2022-05-20T21:35:42Z" finished-at="2022-05-20T21:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase01()[pri:0, instance:com.shopping.testcases.OnlineShopping@1329995]" name="testCase01" duration-ms="11804" started-at="2022-05-20T21:36:45Z" finished-at="2022-05-20T21:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method status="PASS" signature="testCase02()[pri:0, instance:com.shopping.testcases.OnlineShopping@1329995]" name="testCase02" duration-ms="36524" started-at="2022-05-20T21:36:57Z" finished-at="2022-05-20T21:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+        <test-method status="PASS" signature="testCase03()[pri:0, instance:com.shopping.testcases.OnlineShopping@1329995]" name="testCase03" duration-ms="3865" started-at="2022-05-20T21:37:33Z" finished-at="2022-05-20T21:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method status="PASS" signature="testCase04()[pri:0, instance:com.shopping.testcases.OnlineShopping@1329995]" name="testCase04" duration-ms="9121" started-at="2022-05-20T21:37:37Z" finished-at="2022-05-20T21:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shopping.testcases.OnlineShopping@1329995]" name="tearDown" is-config="true" duration-ms="5920" started-at="2022-05-20T21:37:47Z" finished-at="2022-05-20T21:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shopping.testcases.OnlineShopping -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
