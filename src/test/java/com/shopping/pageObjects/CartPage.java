@@ -160,9 +160,9 @@ public class CartPage extends MasterPage {
 			double totalValue = Double.parseDouble(utils.getText(total).split(": ")[1]);
 			//Logic to check subtotal of each item is matching with total value
 			if(subtotalGrandValue == totalValue)
-				Reports.logger.log(Status.PASS, MarkupHelper.createLabel("Subtotal matches with total value. Subtotal: "+subtotalGrandValue+". Subtotal: "+totalValue, ExtentColor.GREEN));
+				Reports.logger.log(Status.PASS, MarkupHelper.createLabel("Sum of subtotal matches with total value. Sum of subtotal: "+subtotalGrandValue+". Total: "+totalValue, ExtentColor.GREEN));
 			else
-				Reports.logger.log(Status.FAIL, MarkupHelper.createLabel("Subtotal not matches with total value. Subtotal: "+subtotalGrandValue+". Subtotal: "+totalValue, ExtentColor.RED));
+				Reports.logger.log(Status.FAIL, MarkupHelper.createLabel("Sum of subtotal not matches with total value. Sum of subtotal: "+subtotalGrandValue+". Total: "+totalValue, ExtentColor.RED));
 			utils.getScreenShot("ProductAndQuantityCheck");
 		}catch(TimeoutException e){
 			Reports.logger.log(Status.FAIL, MarkupHelper.createLabel("Timeout Exception occured", ExtentColor.RED));
